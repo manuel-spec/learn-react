@@ -1,5 +1,5 @@
 function Message() {
-    return <h1>Hello world</h1>;
+    return <button>Click me</button>;
 }
 
 export default Message;
