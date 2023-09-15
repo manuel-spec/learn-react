@@ -1,5 +1,7 @@
 function Message() {
-    return <button>Click me</button>;
+    return <button onClick={() => {
+        console.log("cicked")
+    }}>Click me</button>;
 }
 
 export default Message;
