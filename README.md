@@ -2,7 +2,7 @@
 my progress learning react.js
 
 check them out by ....
-npm install
+npm install<br/>
 npm run dev
 
 :)
