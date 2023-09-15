@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import 'bootstrap/dist/css/bootstrap.css'
 
 function Increment() {
     const [NumberIncrement, SetNumberIncrement] = useState(0);
@@ -7,10 +8,10 @@ function Increment() {
             <h1>
                 {NumberIncrement}
             </h1>
-            <button onClick={() => {
+            <button className='btn btn-danger m-lg-1' onClick={() => {
                 SetNumberIncrement(NumberIncrement + 1)
             }}>+</button>
-            <button onClick={() => {
+            <button className='btn btn-danger' onClick={() => {
                 SetNumberIncrement(NumberIncrement - 1)
             }}>-</button>
         </>
